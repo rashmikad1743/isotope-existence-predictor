@@ -5,13 +5,13 @@ Includes a Streamlit web interface for easy data upload, prediction visualizatio
 
 📁 Project Structure
 📦 isotope-existence-predictor
-├── app.py                      
-├── train.py                       
+├── app.py
+├── train.py
 ├── final_corrected_isotope_data.csv
-├── requirements.txt               
+├── requirements.txt
 ├── artifact/
-│   └── model.pkl                   
-└── README.md                      
+│   └── model.pkl                  
+└── README.md                   
 
 🚀 Quick Start (Local Setup)
 1️⃣ Clone this repository
