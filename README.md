@@ -5,22 +5,20 @@ Includes a Streamlit web interface for easy data upload, prediction visualizatio
 
 📁 Project Structure
 📦 isotope-existence-predictor
-├── app.py                         # Streamlit web app (for user interface)
-├── train.py                       # Model training script
-├── final_corrected_isotope_data.csv  # Input dataset
-├── requirements.txt               # Dependencies
+├── app.py                      
+├── train.py                       
+├── final_corrected_isotope_data.csv
+├── requirements.txt               
 ├── artifact/
-│   └── model.pkl                  # Saved trained model
-└── README.md                      # Project documentation
+│   └── model.pkl                   
+└── README.md                      
 
 🚀 Quick Start (Local Setup)
 1️⃣ Clone this repository
-git clone https://github.com/<your-username>/isotope-existence-predictor.git
+git clone https://github.com/rashmikad1743/isotope-existence-predictor.git
 cd isotope-existence-predictor
 
 2️⃣ Add your dataset
-
-Place your dataset file as:
 
 final_corrected_isotope_data.csv
 
@@ -28,20 +26,13 @@ final_corrected_isotope_data.csv
 python -m venv venv
 
 
-Activate it:
-
 Windows:
 
 venv\Scripts\activate
 
 
-Mac/Linux:
-
-source venv/bin/activate
-
 4️⃣ Install Dependencies
 pip install -r requirements.txt
-
 
 Your requirements.txt should include:
 
